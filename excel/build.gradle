@@ -1,0 +1,10 @@
+
+dependencies {
+    // 配置该项目特有的依赖
+    // HSSFWorkbook
+    implementation 'org.apache.poi:poi:4.1.2'
+    // XSSFWorkbook和SXSSHWorkbook
+    implementation 'org.apache.poi:poi-ooxml:4.1.2'
+
+
+}
