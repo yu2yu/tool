@@ -8,6 +8,16 @@
 
 ##### 简单对象
 ```java
+public class Student {
+
+    @ExcelColumn(name = "姓名",index=1,needMerge = true)
+    private String name;
+    @ExcelColumn(name = "年龄",index=2)
+    private Integer age;
+    @ExcelColumn(name = "性别",index=3)
+    private String sex;
+}
+
 ExportParams params = new ExportParams();
 params.setSheetName("sheet标题");
 Collection<Student> dataSet = getData();

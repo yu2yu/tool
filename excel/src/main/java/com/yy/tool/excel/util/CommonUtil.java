@@ -1,7 +1,5 @@
 package com.yy.tool.excel.util;
 
-import com.yy.tool.excel.Person;
-import com.yy.tool.excel.Student;
 import com.yy.tool.excel.entity.ExcelEntity;
 
 import java.lang.reflect.Field;
