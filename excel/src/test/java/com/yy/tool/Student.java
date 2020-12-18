@@ -1,4 +1,4 @@
-package com.yy.tool.excel;
+package com.yy.tool;
 
 import com.yy.tool.excel.annotation.ExcelColumn;
 import lombok.AllArgsConstructor;

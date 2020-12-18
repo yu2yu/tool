@@ -2,17 +2,12 @@ package com.yy.tool;
 
 
 import com.yy.tool.excel.ExcelExportUtil;
-import com.yy.tool.excel.Person;
-import com.yy.tool.excel.Student;
 import com.yy.tool.excel.annotation.ExcelColumn;
 import com.yy.tool.excel.entity.ExcelEntity;
 import com.yy.tool.excel.entity.ExportParams;
-import com.yy.tool.excel.util.ExcelExportParseUtil;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.junit.Test;
-import org.springframework.beans.BeanUtils;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -67,7 +62,6 @@ public class ExcelTest {
 
         ExportParams params = new ExportParams();
         params.setSheetName("测试");
-
         Collection<Student> dataSet = getData();
         Workbook sheets = ExcelExportUtil.exportExcel(params, Student.class, dataSet);
         FileOutputStream out = new FileOutputStream("E:/test2.xls");
