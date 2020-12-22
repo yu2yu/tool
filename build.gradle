@@ -32,6 +32,7 @@ subprojects {
     }
     dependencies {
         compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+        testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 
         annotationProcessor 'org.projectlombok:lombok:1.18.2'
         compile('org.projectlombok:lombok:1.18.2')
