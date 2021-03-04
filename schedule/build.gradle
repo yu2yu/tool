@@ -1,0 +1,9 @@
+dependencies {
+    // 配置该项目特有的依赖
+
+    // xxl-job
+    implementation 'com.xuxueli:xxl-job-core:2.3.0'
+
+
+
+}
