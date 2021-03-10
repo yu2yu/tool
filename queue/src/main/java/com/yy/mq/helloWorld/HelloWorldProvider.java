@@ -1,4 +1,4 @@
-package com.yy.mq;
+package com.yy.mq.helloWorld;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -23,7 +23,6 @@ public class HelloWorldProvider {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
 }

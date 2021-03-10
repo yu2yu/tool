@@ -4,3 +4,9 @@ dependencies {
 
     implementation 'com.rabbitmq:amqp-client:5.11.0'
 }
+
+task(runConsumer1, dependsOn: 'classes', type: JavaExec) {
+    main = 'com.yy.mq.work.Consumer1'
+    classpath = sourceSets.main.runtimeClasspath
+    args ''
+}
