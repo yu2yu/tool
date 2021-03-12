@@ -3,7 +3,8 @@ dependencies {
 
     // xxl-job
     implementation 'com.xuxueli:xxl-job-core:2.3.0'
-
+    // quartz
+    implementation 'org.quartz-scheduler:quartz:2.3.2'
 
 
 }
